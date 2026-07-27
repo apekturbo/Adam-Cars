@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adam Motorsport | Premium Cars, Honest Deals</title>
+<meta name="description" content="Adam Motorsport — a Malaysian dealership for sports cars, luxury sedans and everyday drives. Browse inventory, book a test drive, and finance with confidence.">
+
+<!-- ===================== FONTS ===================== -->
+<!-- Oswald: bold condensed display face for headings (racing/automotive feel) -->
+<!-- Manrope: clean geometric sans for body copy and UI -->
+<!-- JetBrains Mono: used only for spec numbers (horsepower, mileage) like a dashboard readout -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===================== REV BAR (scroll progress) ===================== -->
+<!-- Signature element: fills left-to-right like a tachometer redline as the user scrolls -->
+<div class="rev-bar" id="revBar" aria-hidden="true"></div>
+
+<!-- ===================== PRELOADER ===================== -->
+<div class="preloader" id="preloader" aria-hidden="true">
+  <div class="preloader__mark">
+    <span>ADAM</span>
+    <span class="preloader__accent">MOTORSPORT</span>
+  </div>
+  <div class="preloader__bar"><div class="preloader__bar-fill"></div></div>
+</div>
+
+<!-- ===================== NAVIGATION ===================== -->
+<header class="nav" id="siteNav">
+  <div class="nav__inner">
+    <a href="#home" class="nav__logo" aria-label="Adam Motorsport home">
+      <span class="nav__logo-mark">AM</span>
+      <span class="nav__logo-text">ADAM<em>MOTORSPORT</em></span>
+    </a>
+
+    <nav class="nav__links" id="navLinks" aria-label="Primary">
+      <a href="#home" class="nav__link active" data-i18n="nav.home">Home</a>
+      <a href="#about" class="nav__link" data-i18n="nav.about">About</a>
+      <a href="#products" class="nav__link" data-i18n="nav.products">Inventory</a>
+      <a href="#featured" class="nav__link" data-i18n="nav.featured">Featured</a>
+      <a href="#services" class="nav__link" data-i18n="nav.services">Services</a>
+      <a href="#testimonials" class="nav__link" data-i18n="nav.testimonials">Reviews</a>
+      <a href="#faq" class="nav__link" data-i18n="nav.faq">FAQ</a>
+      <a href="#contact" class="nav__link" data-i18n="nav.contact">Contact</a>
+    </nav>
+
+    <div class="nav__actions">
+      <!-- Language selector -->
+      <div class="lang-select" id="langSelect">
+        <button class="lang-select__btn" id="langBtn" aria-haspopup="listbox" aria-expanded="false">
+          <span id="langCurrent">EN</span>
+          <svg width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <ul class="lang-select__list" id="langList" role="listbox">
+          <li role="option" data-lang="en">English</li>
+          <li role="option" data-lang="ms">Bahasa Melayu</li>
+          <li role="option" data-lang="zh">中文</li>
+          <li role="option" data-lang="ta">தமிழ்</li>
+        </ul>
+      </div>
+
+      <a href="#products" class="btn btn--outline btn--sm" data-i18n="nav.cta">Explore Cars</a>
+
+      <button class="nav__burger" id="navBurger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="mainContent">
+
+  <!-- ===================== HOME / HERO ===================== -->
+  <section class="hero" id="home">
+    <div class="hero__bg">
+      <img src="https://images.unsplash.com/photo-1614200187524-dc4b892acf16?q=80&w=2069&auto=format&fit=crop" alt="" class="hero__img" loading="eager">
+      <div class="hero__scrim"></div>
+    </div>
+
+    <div class="hero__content">
+      <p class="eyebrow reveal" data-i18n="hero.eyebrow">Kuala Lumpur &middot; Est. 2011</p>
+      <h1 class="hero__title reveal">
+        <span data-i18n="hero.title1">DRIVE WHAT</span><br>
+        <span class="hero__title-accent" data-i18n="hero.title2">MOVES YOU</span>
+      </h1>
+      <p class="hero__subtitle reveal" data-i18n="hero.subtitle">Malaysia's trusted home for sports cars, luxury sedans and everyday reliability — inspected, certified, and ready to drive today.</p>
+      <div class="hero__actions reveal">
+        <a href="#products" class="btn btn--primary" data-scroll data-i18n="hero.ctaPrimary">Explore Cars</a>
+        <a href="#contact" class="btn btn--ghost" data-scroll data-i18n="hero.ctaSecondary">Book a Test Drive</a>
+      </div>
+    </div>
+
+    <button class="hero__scroll-cue" id="scrollCue" aria-label="Scroll to About section">
+      <span data-i18n="hero.scroll">Scroll</span>
+      <span class="hero__scroll-line"></span>
+    </button>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section class="about" id="about">
+    <div class="container about__grid">
+      <div class="about__copy reveal-on-scroll">
+        <p class="eyebrow" data-i18n="about.eyebrow">Who We Are</p>
+        <h2 class="section-title" data-i18n="about.title">Built on trust,<br>tuned for performance.</h2>
+        <p class="about__text" data-i18n="about.intro">Adam Motorsport started as a two-bay workshop in Petaling Jaya and grew into one of Malaysia's most respected multi-brand dealerships. Every car on our floor passes a 120-point inspection before it ever meets a customer.</p>
+
+        <div class="about__pillars">
+          <div class="about__pillar">
+            <h3 data-i18n="about.missionTitle">Our Mission</h3>
+            <p data-i18n="about.missionText">Make premium car ownership transparent, fair, and genuinely enjoyable — no pressure, no hidden fees.</p>
+          </div>
+          <div class="about__pillar">
+            <h3 data-i18n="about.visionTitle">Our Vision</h3>
+            <p data-i18n="about.visionText">To be the first name Malaysians think of when they picture the car they actually want to drive.</p>
+          </div>
+        </div>
+
+        <ul class="about__why">
+          <li><span data-i18n="about.why1">120-point certified inspection on every vehicle</span></li>
+          <li><span data-i18n="about.why2">Transparent, no-haggle pricing in Ringgit</span></li>
+          <li><span data-i18n="about.why3">In-house financing with same-day approval</span></li>
+          <li><span data-i18n="about.why4">1-year warranty on all certified pre-owned cars</span></li>
+        </ul>
+      </div>
+
+      <div class="about__stats reveal-on-scroll">
+        <div class="stat-card">
+          <span class="stat-card__number" data-count="4800">0</span>
+          <span class="stat-card__label" data-i18n="about.stat1">Cars Sold</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-card__number" data-count="3600">0</span>
+          <span class="stat-card__label" data-i18n="about.stat2">Happy Customers</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-card__number" data-count="14">0</span>
+          <span class="stat-card__label" data-i18n="about.stat3">Years of Experience</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-card__number" data-count="6">0</span>
+          <span class="stat-card__label" data-i18n="about.stat4">Branches Nationwide</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PRODUCTS / INVENTORY ===================== -->
+  <section class="products" id="products">
+    <div class="container">
+      <div class="section-head reveal-on-scroll">
+        <p class="eyebrow" data-i18n="products.eyebrow">Current Inventory</p>
+        <h2 class="section-title" data-i18n="products.title">Find your next car</h2>
+        <p class="section-desc" data-i18n="products.desc">Every listing below is in stock and ready for viewing at our Petaling Jaya showroom.</p>
+      </div>
+
+      <div class="filter-bar reveal-on-scroll" role="tablist" aria-label="Filter cars by category">
+        <button class="filter-btn active" data-filter="all" data-i18n="products.filterAll">All</button>
+        <button class="filter-btn" data-filter="sedan" data-i18n="products.filterSedan">Sedan</button>
+        <button class="filter-btn" data-filter="suv" data-i18n="products.filterSuv">SUV</button>
+        <button class="filter-btn" data-filter="sports" data-i18n="products.filterSports">Sports</button>
+        <button class="filter-btn" data-filter="electric" data-i18n="products.filterElectric">Electric</button>
+      </div>
+
+      <div class="car-grid" id="carGrid"><!-- injected by script.js --></div>
+    </div>
+  </section>
+
+  <!-- ===================== FEATURED CARS ===================== -->
+  <section class="featured" id="featured">
+    <div class="container">
+      <div class="section-head section-head--light reveal-on-scroll">
+        <p class="eyebrow" data-i18n="featured.eyebrow">Handpicked</p>
+        <h2 class="section-title" data-i18n="featured.title">Featured this month</h2>
+      </div>
+      <div class="featured-track" id="featuredTrack"><!-- injected by script.js --></div>
+    </div>
+  </section>
+
+  <!-- ===================== SERVICES ===================== -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-head reveal-on-scroll">
+        <p class="eyebrow" data-i18n="services.eyebrow">Beyond the Sale</p>
+        <h2 class="section-title" data-i18n="services.title">Everything your car needs</h2>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card reveal-on-scroll">
+          <div class="service-card__icon">💳</div>
+          <h3 data-i18n="services.financing.title">Car Financing</h3>
+          <p data-i18n="services.financing.text">Flexible loan packages with rates from 2.7% p.a. and approval within 24 hours.</p>
+        </div>
+        <div class="service-card reveal-on-scroll">
+          <div class="service-card__icon">🔄</div>
+          <h3 data-i18n="services.tradein.title">Trade-In</h3>
+          <p data-i18n="services.tradein.text">Get a fair market valuation for your current car and offset it against your next purchase.</p>
+        </div>
+        <div class="service-card reveal-on-scroll">
+          <div class="service-card__icon">🛡️</div>
+          <h3 data-i18n="services.insurance.title">Insurance</h3>
+          <p data-i18n="services.insurance.text">Comprehensive coverage bundled at point of sale, with roadside assistance included.</p>
+        </div>
+        <div class="service-card reveal-on-scroll">
+          <div class="service-card__icon">🔧</div>
+          <h3 data-i18n="services.warranty.title">Warranty</h3>
+          <p data-i18n="services.warranty.text">Every certified pre-owned car ships with a 1-year, 20,000km warranty as standard.</p>
+        </div>
+        <div class="service-card reveal-on-scroll">
+          <div class="service-card__icon">🔍</div>
+          <h3 data-i18n="services.inspection.title">Vehicle Inspection</h3>
+          <p data-i18n="services.inspection.text">A 120-point mechanical and cosmetic inspection report is issued with every vehicle.</p>
+        </div>
+        <div class="service-card reveal-on-scroll">
+          <div class="service-card__icon">🔑</div>
+          <h3 data-i18n="services.testdrive.title">Test Drive Booking</h3>
+          <p data-i18n="services.testdrive.text">Reserve a slot online and take any car in our inventory for an extended test drive.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TESTIMONIALS ===================== -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-head section-head--light reveal-on-scroll">
+        <p class="eyebrow" data-i18n="testimonials.eyebrow">Customer Stories</p>
+        <h2 class="section-title" data-i18n="testimonials.title">What our drivers say</h2>
+      </div>
+
+      <div class="testimonial-carousel">
+        <div class="testimonial-track" id="testimonialTrack"><!-- injected by script.js --></div>
+        <div class="testimonial-dots" id="testimonialDots"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FAQ ===================== -->
+  <section class="faq" id="faq">
+    <div class="container container--narrow">
+      <div class="section-head reveal-on-scroll">
+        <p class="eyebrow" data-i18n="faq.eyebrow">Good to Know</p>
+        <h2 class="section-title" data-i18n="faq.title">Frequently asked questions</h2>
+      </div>
+
+      <div class="accordion" id="accordion">
+        <div class="accordion__item reveal-on-scroll">
+          <button class="accordion__trigger" aria-expanded="false">
+            <span data-i18n="faq.q1">Can I finance a car with no credit history?</span>
+            <span class="accordion__icon">+</span>
+          </button>
+          <div class="accordion__panel">
+            <p data-i18n="faq.a1">Yes. We work with multiple banks and offer in-house financing options tailored for first-time buyers, with flexible down payments starting from 10%.</p>
+          </div>
+        </div>
+        <div class="accordion__item reveal-on-scroll">
+          <button class="accordion__trigger" aria-expanded="false">
+            <span data-i18n="faq.q2">Do you accept trade-ins on any brand?</span>
+            <span class="accordion__icon">+</span>
+          </button>
+          <div class="accordion__panel">
+            <p data-i18n="faq.a2">We accept trade-ins on all makes and models. Bring your car in for a free valuation — most quotes are ready within 30 minutes.</p>
+          </div>
+        </div>
+        <div class="accordion__item reveal-on-scroll">
+          <button class="accordion__trigger" aria-expanded="false">
+            <span data-i18n="faq.q3">Are your used cars inspected?</span>
+            <span class="accordion__icon">+</span>
+          </button>
+          <div class="accordion__panel">
+            <p data-i18n="faq.a3">Every vehicle undergoes a 120-point inspection covering the engine, transmission, electronics and body before it's listed for sale.</p>
+          </div>
+        </div>
+        <div class="accordion__item reveal-on-scroll">
+          <button class="accordion__trigger" aria-expanded="false">
+            <span data-i18n="faq.q4">Can I book a test drive online?</span>
+            <span class="accordion__icon">+</span>
+          </button>
+          <div class="accordion__panel">
+            <p data-i18n="faq.a4">Yes, use the contact form below or call our showroom directly. Test drives can usually be arranged the same day.</p>
+          </div>
+        </div>
+        <div class="accordion__item reveal-on-scroll">
+          <button class="accordion__trigger" aria-expanded="false">
+            <span data-i18n="faq.q5">What warranty comes with a used car?</span>
+            <span class="accordion__icon">+</span>
+          </button>
+          <div class="accordion__panel">
+            <p data-i18n="faq.a5">All certified pre-owned vehicles include a 1-year or 20,000km warranty, whichever comes first, covering major mechanical components.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section class="contact" id="contact">
+    <div class="container contact__grid">
+      <div class="contact__info reveal-on-scroll">
+        <p class="eyebrow" data-i18n="contact.eyebrow">Get In Touch</p>
+        <h2 class="section-title" data-i18n="contact.title">Visit the showroom</h2>
+        <p class="section-desc" data-i18n="contact.desc">Have a question about a specific car, financing, or trade-in? Send us a message or drop by — we're open seven days a week.</p>
+
+        <ul class="contact__list">
+          <li>
+            <span class="contact__icon">📍</span>
+            <div><strong data-i18n="contact.addressLabel">Address</strong><span data-i18n="contact.address">No. 12, Jalan SS2/24, Petaling Jaya, 47300 Selangor, Malaysia</span></div>
+          </li>
+          <li>
+            <span class="contact__icon">📞</span>
+            <div><strong data-i18n="contact.phoneLabel">Phone</strong><span>+60 3-7876 5432</span></div>
+          </li>
+          <li>
+            <span class="contact__icon">✉️</span>
+            <div><strong data-i18n="contact.emailLabel">Email</strong><span>hello@adammotorsport.my</span></div>
+          </li>
+          <li>
+            <span class="contact__icon">🕑</span>
+            <div><strong data-i18n="contact.hoursLabel">Hours</strong><span data-i18n="contact.hours">Daily, 10:00 AM &ndash; 8:00 PM</span></div>
+          </li>
+        </ul>
+
+        <div class="contact__socials">
+          <a href="#" aria-label="Facebook" class="social-icon">f</a>
+          <a href="#" aria-label="Instagram" class="social-icon">ig</a>
+          <a href="#" aria-label="TikTok" class="social-icon">tt</a>
+          <a href="#" aria-label="YouTube" class="social-icon">yt</a>
+        </div>
+
+        <div class="contact__map" aria-label="Map placeholder">
+          <div class="contact__map-inner">
+            <span data-i18n="contact.mapPlaceholder">Google Map — Adam Motorsport, Petaling Jaya</span>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact__form reveal-on-scroll" id="contactForm" novalidate>
+        <h3 data-i18n="contact.formTitle">Send us a message</h3>
+
+        <div class="form-row">
+          <label for="fName" data-i18n="contact.formName">Full Name</label>
+          <input type="text" id="fName" name="name" required data-i18n-placeholder="contact.formNamePh" placeholder="John Tan">
+          <span class="form-error" data-i18n="contact.formErrorName">Please enter your name.</span>
+        </div>
+
+        <div class="form-row">
+          <label for="fEmail" data-i18n="contact.formEmail">Email Address</label>
+          <input type="email" id="fEmail" name="email" required data-i18n-placeholder="contact.formEmailPh" placeholder="john@email.com">
+          <span class="form-error" data-i18n="contact.formErrorEmail">Please enter a valid email.</span>
+        </div>
+
+        <div class="form-row">
+          <label for="fPhone" data-i18n="contact.formPhone">Phone Number</label>
+          <input type="tel" id="fPhone" name="phone" required data-i18n-placeholder="contact.formPhonePh" placeholder="012-345 6789">
+          <span class="form-error" data-i18n="contact.formErrorPhone">Please enter a valid phone number.</span>
+        </div>
+
+        <div class="form-row">
+          <label for="fMessage" data-i18n="contact.formMessage">Message</label>
+          <textarea id="fMessage" name="message" rows="4" required data-i18n-placeholder="contact.formMessagePh" placeholder="I'm interested in the Honda Civic RS..."></textarea>
+          <span class="form-error" data-i18n="contact.formErrorMessage">Please enter a message.</span>
+        </div>
+
+        <button type="submit" class="btn btn--primary btn--full" data-i18n="contact.formSubmit">Send Message</button>
+        <p class="form-success" id="formSuccess" data-i18n="contact.formSuccess">Thanks — we'll get back to you within one business day.</p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <div class="container footer__grid">
+    <div class="footer__brand">
+      <a href="#home" class="nav__logo">
+        <span class="nav__logo-mark">AM</span>
+        <span class="nav__logo-text">ADAM<em>MOTORSPORT</em></span>
+      </a>
+      <p data-i18n="footer.tagline">Premium cars, honest deals, since 2011.</p>
+    </div>
+
+    <div class="footer__col">
+      <h4 data-i18n="footer.quickLinks">Quick Links</h4>
+      <a href="#home" data-i18n="nav.home">Home</a>
+      <a href="#products" data-i18n="nav.products">Inventory</a>
+      <a href="#services" data-i18n="nav.services">Services</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+    </div>
+
+    <div class="footer__col">
+      <h4 data-i18n="footer.legal">Legal</h4>
+      <a href="#" data-i18n="footer.privacy">Privacy Policy</a>
+      <a href="#" data-i18n="footer.terms">Terms &amp; Conditions</a>
+    </div>
+
+    <div class="footer__col">
+      <h4 data-i18n="footer.followUs">Follow Us</h4>
+      <div class="contact__socials">
+        <a href="#" aria-label="Facebook" class="social-icon">f</a>
+        <a href="#" aria-label="Instagram" class="social-icon">ig</a>
+        <a href="#" aria-label="TikTok" class="social-icon">tt</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer__bottom">
+    <p>&copy; <span id="year"></span> Adam Motorsport. <span data-i18n="footer.rights">All rights reserved.</span></p>
+  </div>
+</footer>
+
+<!-- ===================== SCROLL TO TOP ===================== -->
+<button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
