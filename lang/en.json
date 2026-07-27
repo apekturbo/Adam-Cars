@@ -1,0 +1,143 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "products": "Inventory",
+    "featured": "Featured",
+    "services": "Services",
+    "testimonials": "Reviews",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "cta": "Explore Cars"
+  },
+  "hero": {
+    "eyebrow": "Kuala Lumpur &middot; Est. 2011",
+    "title1": "DRIVE WHAT",
+    "title2": "MOVES YOU",
+    "subtitle": "Malaysia's trusted home for sports cars, luxury sedans and everyday reliability — inspected, certified, and ready to drive today.",
+    "ctaPrimary": "Explore Cars",
+    "ctaSecondary": "Book a Test Drive",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "eyebrow": "Who We Are",
+    "title": "Built on trust,<br>tuned for performance.",
+    "intro": "Adam Motorsport started as a two-bay workshop in Petaling Jaya and grew into one of Malaysia's most respected multi-brand dealerships. Every car on our floor passes a 120-point inspection before it ever meets a customer.",
+    "missionTitle": "Our Mission",
+    "missionText": "Make premium car ownership transparent, fair, and genuinely enjoyable — no pressure, no hidden fees.",
+    "visionTitle": "Our Vision",
+    "visionText": "To be the first name Malaysians think of when they picture the car they actually want to drive.",
+    "why1": "120-point certified inspection on every vehicle",
+    "why2": "Transparent, no-haggle pricing in Ringgit",
+    "why3": "In-house financing with same-day approval",
+    "why4": "1-year warranty on all certified pre-owned cars",
+    "stat1": "Cars Sold",
+    "stat2": "Happy Customers",
+    "stat3": "Years of Experience",
+    "stat4": "Branches Nationwide"
+  },
+  "products": {
+    "eyebrow": "Current Inventory",
+    "title": "Find your next car",
+    "desc": "Every listing below is in stock and ready for viewing at our Petaling Jaya showroom.",
+    "filterAll": "All",
+    "filterSedan": "Sedan",
+    "filterSuv": "SUV",
+    "filterSports": "Sports",
+    "filterElectric": "Electric",
+    "viewDetails": "View Details",
+    "buyNow": "Buy Now",
+    "specTransmission": "Transmission",
+    "specFuel": "Fuel Type",
+    "specEngine": "Engine",
+    "specHorsepower": "Horsepower",
+    "specMileage": "Mileage"
+  },
+  "featured": {
+    "eyebrow": "Handpicked",
+    "title": "Featured this month"
+  },
+  "services": {
+    "eyebrow": "Beyond the Sale",
+    "title": "Everything your car needs",
+    "financing": { "title": "Car Financing", "text": "Flexible loan packages with rates from 2.7% p.a. and approval within 24 hours." },
+    "tradein": { "title": "Trade-In", "text": "Get a fair market valuation for your current car and offset it against your next purchase." },
+    "insurance": { "title": "Insurance", "text": "Comprehensive coverage bundled at point of sale, with roadside assistance included." },
+    "warranty": { "title": "Warranty", "text": "Every certified pre-owned car ships with a 1-year, 20,000km warranty as standard." },
+    "inspection": { "title": "Vehicle Inspection", "text": "A 120-point mechanical and cosmetic inspection report is issued with every vehicle." },
+    "testdrive": { "title": "Test Drive Booking", "text": "Reserve a slot online and take any car in our inventory for an extended test drive." }
+  },
+  "testimonials": {
+    "eyebrow": "Customer Stories",
+    "title": "What our drivers say"
+  },
+  "faq": {
+    "eyebrow": "Good to Know",
+    "title": "Frequently asked questions",
+    "q1": "Can I finance a car with no credit history?",
+    "a1": "Yes. We work with multiple banks and offer in-house financing options tailored for first-time buyers, with flexible down payments starting from 10%.",
+    "q2": "Do you accept trade-ins on any brand?",
+    "a2": "We accept trade-ins on all makes and models. Bring your car in for a free valuation — most quotes are ready within 30 minutes.",
+    "q3": "Are your used cars inspected?",
+    "a3": "Every vehicle undergoes a 120-point inspection covering the engine, transmission, electronics and body before it's listed for sale.",
+    "q4": "Can I book a test drive online?",
+    "a4": "Yes, use the contact form below or call our showroom directly. Test drives can usually be arranged the same day.",
+    "q5": "What warranty comes with a used car?",
+    "a5": "All certified pre-owned vehicles include a 1-year or 20,000km warranty, whichever comes first, covering major mechanical components."
+  },
+  "contact": {
+    "eyebrow": "Get In Touch",
+    "title": "Visit the showroom",
+    "desc": "Have a question about a specific car, financing, or trade-in? Send us a message or drop by — we're open seven days a week.",
+    "addressLabel": "Address",
+    "address": "No. 12, Jalan SS2/24, Petaling Jaya, 47300 Selangor, Malaysia",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "hoursLabel": "Hours",
+    "hours": "Daily, 10:00 AM &ndash; 8:00 PM",
+    "mapPlaceholder": "Google Map — Adam Motorsport, Petaling Jaya",
+    "formTitle": "Send us a message",
+    "formName": "Full Name",
+    "formNamePh": "John Tan",
+    "formEmail": "Email Address",
+    "formEmailPh": "john@email.com",
+    "formPhone": "Phone Number",
+    "formPhonePh": "012-345 6789",
+    "formMessage": "Message",
+    "formMessagePh": "I'm interested in the Honda Civic RS...",
+    "formSubmit": "Send Message",
+    "formSuccess": "Thanks — we'll get back to you within one business day.",
+    "formErrorName": "Please enter your name.",
+    "formErrorEmail": "Please enter a valid email.",
+    "formErrorPhone": "Please enter a valid phone number.",
+    "formErrorMessage": "Please enter a message."
+  },
+  "footer": {
+    "tagline": "Premium cars, honest deals, since 2011.",
+    "quickLinks": "Quick Links",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms &amp; Conditions",
+    "followUs": "Follow Us",
+    "rights": "All rights reserved."
+  },
+  "cars": [
+    { "id": "civic", "name": "Honda Civic RS", "model": "2023 &middot; Hatchback", "badge": "Bestseller" },
+    { "id": "camry", "name": "Toyota Camry", "model": "2022 &middot; Sedan", "badge": "New" },
+    { "id": "cxfive", "name": "Mazda CX-5", "model": "2023 &middot; SUV", "badge": "Limited Edition" },
+    { "id": "mustang", "name": "Ford Mustang GT", "model": "2021 &middot; Sports Coupe", "badge": "Bestseller" },
+    { "id": "model3", "name": "Tesla Model 3", "model": "2023 &middot; Electric Sedan", "badge": "New" },
+    { "id": "cclass", "name": "Mercedes-Benz C200", "model": "2022 &middot; Luxury Sedan", "badge": "Limited Edition" }
+  ],
+  "featuredCars": [
+    { "id": "911", "name": "Porsche 911 Carrera", "desc": "The benchmark sports car — flat-six power with everyday usability." },
+    { "id": "rangerover", "name": "Range Rover Sport", "desc": "Commanding presence, adaptive air suspension, and true off-road capability." },
+    { "id": "m4", "name": "BMW M4 Competition", "desc": "Track-tuned twin-turbo inline-six wrapped in daily-driver comfort." }
+  ],
+  "testimonialsData": [
+    { "name": "Aiman Yusof", "text": "Adam Motorsport made buying my first car painless. No pressure, transparent pricing, and the financing was approved the same day." },
+    { "name": "Priya Ramesh", "text": "I traded in my old sedan for a CX-5 here. The valuation was fair and the whole process took under two hours." },
+    { "name": "Wei Ming Lee", "text": "Bought a certified pre-owned M4 — the inspection report gave me total confidence. Exactly as described." },
+    { "name": "Nur Farah", "text": "The team let me test drive three different cars in one afternoon with zero pressure to decide on the spot." }
+  ]
+}

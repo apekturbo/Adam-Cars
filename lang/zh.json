@@ -1,0 +1,143 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于我们",
+    "products": "库存车辆",
+    "featured": "精选车款",
+    "services": "服务项目",
+    "testimonials": "客户评价",
+    "faq": "常见问题",
+    "contact": "联系我们",
+    "cta": "浏览车款"
+  },
+  "hero": {
+    "eyebrow": "吉隆坡 &middot; 创立于 2011 年",
+    "title1": "驾驭真正",
+    "title2": "打动你的座驾",
+    "subtitle": "马来西亚值得信赖的跑车、豪华轿车与日常用车专卖店——每一辆都经过检测认证，随时可以试驾。",
+    "ctaPrimary": "浏览车款",
+    "ctaSecondary": "预约试驾",
+    "scroll": "向下滚动"
+  },
+  "about": {
+    "eyebrow": "关于我们",
+    "title": "以信任为基石，<br>以性能为追求。",
+    "intro": "Adam Motorsport 最初是八打灵再也一家两个车位的小工作坊，如今已成长为马来西亚最受尊敬的多品牌汽车经销商之一。展厅内每一辆车在与客户见面前都会经过120项检测。",
+    "missionTitle": "我们的使命",
+    "missionText": "让高端购车变得透明、公平、真正愉快——没有压力，没有隐藏费用。",
+    "visionTitle": "我们的愿景",
+    "visionText": "成为马来西亚人心目中购车时第一个想到的品牌。",
+    "why1": "每辆车均通过120项认证检测",
+    "why2": "林吉特计价，价格透明不议价",
+    "why3": "内部融资服务，当日批核",
+    "why4": "所有认证二手车提供一年保修",
+    "stat1": "累计售出车辆",
+    "stat2": "满意客户",
+    "stat3": "年营业经验",
+    "stat4": "全国分行"
+  },
+  "products": {
+    "eyebrow": "现有库存",
+    "title": "寻找您的下一辆座驾",
+    "desc": "以下所有车辆均有现车，欢迎前往八打灵再也展厅看车。",
+    "filterAll": "全部",
+    "filterSedan": "轿车",
+    "filterSuv": "SUV",
+    "filterSports": "跑车",
+    "filterElectric": "电动车",
+    "viewDetails": "查看详情",
+    "buyNow": "立即购买",
+    "specTransmission": "变速箱",
+    "specFuel": "燃油类型",
+    "specEngine": "引擎",
+    "specHorsepower": "马力",
+    "specMileage": "里程"
+  },
+  "featured": {
+    "eyebrow": "精心挑选",
+    "title": "本月精选车款"
+  },
+  "services": {
+    "eyebrow": "购车之外",
+    "title": "满足爱车的一切需求",
+    "financing": { "title": "汽车融资", "text": "灵活贷款方案，年利率低至2.7%，24小时内完成批核。" },
+    "tradein": { "title": "以旧换新", "text": "为您现有车辆提供公平市场估值，可抵扣下一辆车的购车款。" },
+    "insurance": { "title": "保险服务", "text": "购车时即可投保全面保险，并附带道路救援服务。" },
+    "warranty": { "title": "保修服务", "text": "每辆认证二手车均标配一年或20,000公里保修。" },
+    "inspection": { "title": "车辆检测", "text": "每辆车出售前均出具120项机械与外观检测报告。" },
+    "testdrive": { "title": "预约试驾", "text": "在线预约时段，即可试驾我们库存中的任意车辆。" }
+  },
+  "testimonials": {
+    "eyebrow": "客户故事",
+    "title": "车主们怎么说"
+  },
+  "faq": {
+    "eyebrow": "购车须知",
+    "title": "常见问题",
+    "q1": "没有信用记录可以申请汽车贷款吗？",
+    "a1": "可以。我们与多家银行合作，并为首次购车者提供内部融资方案，首付最低可低至10%。",
+    "q2": "是否接受任何品牌的以旧换新？",
+    "a2": "我们接受所有品牌与车型的以旧换新。将您的爱车送来估值，多数报价可在30分钟内完成。",
+    "q3": "你们的二手车都经过检测吗？",
+    "a3": "每辆车在上架前都会经过涵盖引擎、变速箱、电子系统与车身的120项检测。",
+    "q4": "可以在线预约试驾吗？",
+    "a4": "可以，请使用下方联系表格或直接致电展厅，试驾通常可当天安排。",
+    "q5": "二手车提供什么保修？",
+    "a5": "所有认证二手车均提供一年或20,000公里保修（以先到者为准），涵盖主要机械部件。"
+  },
+  "contact": {
+    "eyebrow": "联系我们",
+    "title": "欢迎莅临展厅",
+    "desc": "对某款车、融资或以旧换新有疑问？给我们留言，或直接到店——我们每周七天营业。",
+    "addressLabel": "地址",
+    "address": "No. 12, Jalan SS2/24, Petaling Jaya, 47300 Selangor, Malaysia",
+    "phoneLabel": "电话",
+    "emailLabel": "电子邮箱",
+    "hoursLabel": "营业时间",
+    "hours": "每日 上午10:00 &ndash; 晚上8:00",
+    "mapPlaceholder": "谷歌地图 — Adam Motorsport，八打灵再也",
+    "formTitle": "给我们留言",
+    "formName": "姓名",
+    "formNamePh": "John Tan",
+    "formEmail": "电子邮箱",
+    "formEmailPh": "john@email.com",
+    "formPhone": "电话号码",
+    "formPhonePh": "012-345 6789",
+    "formMessage": "留言内容",
+    "formMessagePh": "我对 Honda Civic RS 感兴趣……",
+    "formSubmit": "发送留言",
+    "formSuccess": "感谢您的留言——我们将在一个工作日内回复您。",
+    "formErrorName": "请输入您的姓名。",
+    "formErrorEmail": "请输入有效的电子邮箱。",
+    "formErrorPhone": "请输入有效的电话号码。",
+    "formErrorMessage": "请输入留言内容。"
+  },
+  "footer": {
+    "tagline": "高端座驾，诚信交易，始于2011年。",
+    "quickLinks": "快速链接",
+    "legal": "法律信息",
+    "privacy": "隐私政策",
+    "terms": "条款与细则",
+    "followUs": "关注我们",
+    "rights": "版权所有。"
+  },
+  "cars": [
+    { "id": "civic", "name": "Honda Civic RS", "model": "2023 &middot; 掀背车", "badge": "畅销款" },
+    { "id": "camry", "name": "Toyota Camry", "model": "2022 &middot; 轿车", "badge": "新上架" },
+    { "id": "cxfive", "name": "Mazda CX-5", "model": "2023 &middot; SUV", "badge": "限量版" },
+    { "id": "mustang", "name": "Ford Mustang GT", "model": "2021 &middot; 跑车", "badge": "畅销款" },
+    { "id": "model3", "name": "Tesla Model 3", "model": "2023 &middot; 电动轿车", "badge": "新上架" },
+    { "id": "cclass", "name": "Mercedes-Benz C200", "model": "2022 &middot; 豪华轿车", "badge": "限量版" }
+  ],
+  "featuredCars": [
+    { "id": "911", "name": "Porsche 911 Carrera", "desc": "跑车标杆之作——水平对置六缸引擎，兼具日常实用性。" },
+    { "id": "rangerover", "name": "Range Rover Sport", "desc": "气场十足，配备自适应空气悬挂与真正的越野能力。" },
+    { "id": "m4", "name": "BMW M4 Competition", "desc": "赛道调校双涡轮直六引擎，兼具日常驾驶的舒适性。" }
+  ],
+  "testimonialsData": [
+    { "name": "Aiman Yusof", "text": "Adam Motorsport 让我第一次购车毫无压力。价格透明，融资当天就批核了。" },
+    { "name": "Priya Ramesh", "text": "我在这里用旧轿车置换了一辆CX-5，估价公道，整个流程不到两小时。" },
+    { "name": "Wei Ming Lee", "text": "买了一辆认证二手M4——检测报告让我十分放心，车况与描述完全一致。" },
+    { "name": "Nur Farah", "text": "销售团队让我一个下午试驾了三款不同的车，完全没有催促我当场决定。" }
+  ]
+}

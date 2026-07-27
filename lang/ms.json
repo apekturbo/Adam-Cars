@@ -1,0 +1,143 @@
+{
+  "nav": {
+    "home": "Utama",
+    "about": "Tentang Kami",
+    "products": "Inventori",
+    "featured": "Pilihan",
+    "services": "Perkhidmatan",
+    "testimonials": "Ulasan",
+    "faq": "Soalan Lazim",
+    "contact": "Hubungi",
+    "cta": "Terokai Kereta"
+  },
+  "hero": {
+    "eyebrow": "Kuala Lumpur &middot; Ditubuhkan 2011",
+    "title1": "PANDU APA YANG",
+    "title2": "MENGGERAKKAN ANDA",
+    "subtitle": "Rumah dipercayai Malaysia untuk kereta sport, sedan mewah dan kenderaan harian — diperiksa, disahkan, dan sedia untuk dipandu hari ini.",
+    "ctaPrimary": "Terokai Kereta",
+    "ctaSecondary": "Tempah Pandu Uji",
+    "scroll": "Tatal"
+  },
+  "about": {
+    "eyebrow": "Siapa Kami",
+    "title": "Dibina atas kepercayaan,<br>ditala untuk prestasi.",
+    "intro": "Adam Motorsport bermula sebagai bengkel dua bay di Petaling Jaya dan berkembang menjadi salah satu peniaga kereta pelbagai jenama paling dihormati di Malaysia. Setiap kereta di lot kami melalui pemeriksaan 120 titik sebelum bertemu pelanggan.",
+    "missionTitle": "Misi Kami",
+    "missionText": "Menjadikan pemilikan kereta premium telus, adil, dan benar-benar menyeronokkan — tiada tekanan, tiada yuran tersembunyi.",
+    "visionTitle": "Visi Kami",
+    "visionText": "Menjadi nama pertama yang difikirkan rakyat Malaysia apabila membayangkan kereta yang benar-benar ingin mereka pandu.",
+    "why1": "Pemeriksaan bertauliah 120 titik untuk setiap kenderaan",
+    "why2": "Harga telus tanpa tawar-menawar dalam Ringgit",
+    "why3": "Pembiayaan dalaman dengan kelulusan hari sama",
+    "why4": "Waranti 1 tahun untuk semua kereta terpakai bertauliah",
+    "stat1": "Kereta Terjual",
+    "stat2": "Pelanggan Gembira",
+    "stat3": "Tahun Pengalaman",
+    "stat4": "Cawangan Seluruh Negara"
+  },
+  "products": {
+    "eyebrow": "Inventori Semasa",
+    "title": "Cari kereta seterusnya",
+    "desc": "Setiap senarai di bawah ada dalam stok dan sedia untuk tontonan di pameran kami di Petaling Jaya.",
+    "filterAll": "Semua",
+    "filterSedan": "Sedan",
+    "filterSuv": "SUV",
+    "filterSports": "Sport",
+    "filterElectric": "Elektrik",
+    "viewDetails": "Lihat Butiran",
+    "buyNow": "Beli Sekarang",
+    "specTransmission": "Transmisi",
+    "specFuel": "Jenis Bahan Api",
+    "specEngine": "Enjin",
+    "specHorsepower": "Kuasa Kuda",
+    "specMileage": "Jarak Tempuh"
+  },
+  "featured": {
+    "eyebrow": "Pilihan Istimewa",
+    "title": "Pilihan bulan ini"
+  },
+  "services": {
+    "eyebrow": "Lebih Daripada Jualan",
+    "title": "Semua yang kereta anda perlukan",
+    "financing": { "title": "Pembiayaan Kereta", "text": "Pakej pinjaman fleksibel dengan kadar dari 2.7% setahun dan kelulusan dalam 24 jam." },
+    "tradein": { "title": "Tukar Beli", "text": "Dapatkan penilaian pasaran yang adil untuk kereta semasa anda dan tolak daripada pembelian seterusnya." },
+    "insurance": { "title": "Insurans", "text": "Perlindungan menyeluruh digabungkan semasa jualan, termasuk bantuan jalan raya." },
+    "warranty": { "title": "Waranti", "text": "Setiap kereta terpakai bertauliah disertakan waranti 1 tahun, 20,000km sebagai standard." },
+    "inspection": { "title": "Pemeriksaan Kenderaan", "text": "Laporan pemeriksaan mekanikal dan kosmetik 120 titik dikeluarkan untuk setiap kenderaan." },
+    "testdrive": { "title": "Tempahan Pandu Uji", "text": "Tempah slot dalam talian dan pandu mana-mana kereta dalam inventori kami untuk pandu uji lanjutan." }
+  },
+  "testimonials": {
+    "eyebrow": "Cerita Pelanggan",
+    "title": "Apa kata pemandu kami"
+  },
+  "faq": {
+    "eyebrow": "Perlu Tahu",
+    "title": "Soalan lazim",
+    "q1": "Bolehkah saya membiayai kereta tanpa sejarah kredit?",
+    "a1": "Ya. Kami bekerjasama dengan pelbagai bank dan menawarkan pilihan pembiayaan dalaman untuk pembeli kali pertama, dengan bayaran pendahuluan fleksibel bermula 10%.",
+    "q2": "Adakah anda menerima tukar beli untuk semua jenama?",
+    "a2": "Kami menerima tukar beli untuk semua jenama dan model. Bawa kereta anda untuk penilaian percuma — kebanyakan sebut harga siap dalam 30 minit.",
+    "q3": "Adakah kereta terpakai anda diperiksa?",
+    "a3": "Setiap kenderaan menjalani pemeriksaan 120 titik merangkumi enjin, transmisi, elektronik dan badan sebelum disenaraikan untuk dijual.",
+    "q4": "Bolehkah saya menempah pandu uji dalam talian?",
+    "a4": "Ya, gunakan borang hubungi di bawah atau hubungi pameran kami terus. Pandu uji biasanya boleh diatur pada hari yang sama.",
+    "q5": "Apakah waranti yang disertakan dengan kereta terpakai?",
+    "a5": "Semua kenderaan terpakai bertauliah termasuk waranti 1 tahun atau 20,000km, mengikut mana yang dahulu, merangkumi komponen mekanikal utama."
+  },
+  "contact": {
+    "eyebrow": "Hubungi Kami",
+    "title": "Lawati pameran",
+    "desc": "Ada soalan tentang kereta tertentu, pembiayaan, atau tukar beli? Hantar mesej atau singgah — kami buka tujuh hari seminggu.",
+    "addressLabel": "Alamat",
+    "address": "No. 12, Jalan SS2/24, Petaling Jaya, 47300 Selangor, Malaysia",
+    "phoneLabel": "Telefon",
+    "emailLabel": "E-mel",
+    "hoursLabel": "Waktu Operasi",
+    "hours": "Setiap hari, 10:00 pagi &ndash; 8:00 malam",
+    "mapPlaceholder": "Peta Google — Adam Motorsport, Petaling Jaya",
+    "formTitle": "Hantar mesej kepada kami",
+    "formName": "Nama Penuh",
+    "formNamePh": "John Tan",
+    "formEmail": "Alamat E-mel",
+    "formEmailPh": "john@email.com",
+    "formPhone": "Nombor Telefon",
+    "formPhonePh": "012-345 6789",
+    "formMessage": "Mesej",
+    "formMessagePh": "Saya berminat dengan Honda Civic RS...",
+    "formSubmit": "Hantar Mesej",
+    "formSuccess": "Terima kasih — kami akan hubungi anda dalam satu hari bekerja.",
+    "formErrorName": "Sila masukkan nama anda.",
+    "formErrorEmail": "Sila masukkan e-mel yang sah.",
+    "formErrorPhone": "Sila masukkan nombor telefon yang sah.",
+    "formErrorMessage": "Sila masukkan mesej."
+  },
+  "footer": {
+    "tagline": "Kereta premium, urus niaga jujur, sejak 2011.",
+    "quickLinks": "Pautan Pantas",
+    "legal": "Perundangan",
+    "privacy": "Dasar Privasi",
+    "terms": "Terma &amp; Syarat",
+    "followUs": "Ikuti Kami",
+    "rights": "Hak cipta terpelihara."
+  },
+  "cars": [
+    { "id": "civic", "name": "Honda Civic RS", "model": "2023 &middot; Hatchback", "badge": "Terlaris" },
+    { "id": "camry", "name": "Toyota Camry", "model": "2022 &middot; Sedan", "badge": "Baharu" },
+    { "id": "cxfive", "name": "Mazda CX-5", "model": "2023 &middot; SUV", "badge": "Edisi Terhad" },
+    { "id": "mustang", "name": "Ford Mustang GT", "model": "2021 &middot; Sports Coupe", "badge": "Terlaris" },
+    { "id": "model3", "name": "Tesla Model 3", "model": "2023 &middot; Sedan Elektrik", "badge": "Baharu" },
+    { "id": "cclass", "name": "Mercedes-Benz C200", "model": "2022 &middot; Sedan Mewah", "badge": "Edisi Terhad" }
+  ],
+  "featuredCars": [
+    { "id": "911", "name": "Porsche 911 Carrera", "desc": "Penanda aras kereta sport — kuasa flat-six dengan kebolehgunaan harian." },
+    { "id": "rangerover", "name": "Range Rover Sport", "desc": "Kehadiran gagah, gantungan udara adaptif, dan keupayaan luar jalan sebenar." },
+    { "id": "m4", "name": "BMW M4 Competition", "desc": "Enjin enam-inline turbo-berkembar ditala litar dibungkus dengan keselesaan harian." }
+  ],
+  "testimonialsData": [
+    { "name": "Aiman Yusof", "text": "Adam Motorsport menjadikan pembelian kereta pertama saya mudah. Tiada tekanan, harga telus, dan pembiayaan diluluskan pada hari yang sama." },
+    { "name": "Priya Ramesh", "text": "Saya menukar sedan lama saya dengan CX-5 di sini. Penilaian adil dan keseluruhan proses mengambil masa kurang dua jam." },
+    { "name": "Wei Ming Lee", "text": "Beli M4 terpakai bertauliah — laporan pemeriksaan memberi saya keyakinan penuh. Tepat seperti diterangkan." },
+    { "name": "Nur Farah", "text": "Pasukan membenarkan saya pandu uji tiga kereta berbeza dalam satu petang tanpa tekanan untuk membuat keputusan segera." }
+  ]
+}
